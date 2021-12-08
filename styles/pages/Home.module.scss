@@ -1,0 +1,12 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  // background-color: red;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  &__main {
+    // background-color: green;
+    display: flex;
+  }
+}

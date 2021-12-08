@@ -1,0 +1,45 @@
+.header {
+  height: 70px;
+  background-color: #262827;
+  display: flex;
+  justify-content: space-between;
+
+  &__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 10px;
+    :nth-child(0n + 2) {
+      margin: 0 0 0 10px;
+    }
+    &__title {
+      font-family: "Readex Pro", sans-serif;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: #fff;
+    }
+  }
+  &__right__col {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px 0 0;
+    :nth-child(0n + 2) {
+      margin: 0 0 0 10px;
+    }
+  }
+}
+.btn {
+  width: 210px;
+  height: 48px;
+  border: none;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+  &__white {
+    background-color: #fff;
+    color: #000;
+  }
+}
