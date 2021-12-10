@@ -2,6 +2,9 @@ import Image from 'next/image'
 import logo from '../public/img/logo.png'
 import styles from '../styles/layout/header.module.scss'
 import modal from '../styles/components/modal.module.scss'
+import Button from './buttons'
+import styled from 'styled-components'
+
 
 const Header = () => {
     return (
@@ -19,8 +22,8 @@ const Header = () => {
 
                 </div>
                 <div className={styles.header__right__col}>
-                    <button className={`${styles.btn} && ${styles.btn__borderline}`}>Se connecter</button>
-                    <button className={`${styles.btn} && ${styles.btn__white}`}>S'inscrire</button>
+                    <Button color="transparent" label="Se connecter" />
+                    <Button color="white" label="S'inscrire" />
                 </div>
             </div>
             {/* <modal className={modal.container}>
