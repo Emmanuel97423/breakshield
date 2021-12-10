@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/pages/Home.module.scss'
 import Header from '../components/header'
 import NavBar from '../components/navBar'
+import Sidebar from '../components/sideBar'
 
 const Home = () => {
   return (
@@ -14,7 +15,7 @@ const Home = () => {
       <div className={styles.container__main}>
         <NavBar />
         <h1>Feed</h1>
-        <div>right sidebar</div>
+        <Sidebar />
 
       </div>
 
