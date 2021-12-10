@@ -31,7 +31,7 @@ const NavBar = () => {
             <div className={styles.container}>
                 <ul className={styles.container__list}>
                     <li className={styles.container__list__item}><div><FaHouseDamage /><h3>Accueil</h3></div></li>
-                    <li className={styles.container__list__item}>
+                    <li className={styles.container__list__item} >
                         <div onClick={() => handleClick()}>
                             <Image
                                 src={wzIcon}
