@@ -3,7 +3,7 @@ import logo from '../public/img/logo.png'
 import styles from '../styles/layout/header.module.scss'
 import modal from '../styles/components/modal.module.scss'
 import Button from './buttons'
-import styled from 'styled-components'
+
 
 
 const Header = () => {

@@ -10,4 +10,10 @@
     display: flex;
     justify-content: space-between;
   }
+  &__feed {
+    flex-grow: 1;
+    // background-color: green;
+    margin: 10px;
+    border-radius: 5px;
+  }
 }
