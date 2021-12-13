@@ -13,7 +13,7 @@ const Layout = ({ children }) => {
             </div>
             <div className={styles.container__main}>
                 <NavBar />
-                <main>{children}</main>
+                <main className={styles.container__feed}>{children}</main>
                 <Sidebar />
             </div>
         </div>

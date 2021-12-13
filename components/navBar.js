@@ -4,6 +4,7 @@ import Image from 'next/image';
 import wzIcon from '../public/img/icons/icon-wz-white.ico';
 import Dropdown from './dropdown';
 import React, { useState } from 'react'
+import Link from 'next/link';
 
 
 const warzoneProps = {
@@ -30,7 +31,7 @@ const NavBar = () => {
         <nav>
             <div className={styles.container}>
                 <ul className={styles.container__list}>
-                    <li className={styles.container__list__item}><div><FaHouseDamage /><h3>Accueil</h3></div></li>
+                    <Link href='/'><li className={styles.container__list__item}><div><FaHouseDamage /><h3>Accueil</h3></div></li></Link>
                     <li className={styles.container__list__item} >
                         <div onClick={() => handleClick()}>
                             <Image
